@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  background: url('anime.gif') no-repeat center center fixed;
+  background: url('anime.mp4') no-repeat center center fixed;
   background-size: cover;
   color: var(--text-dark);
   transition: all 0.5s ease;
