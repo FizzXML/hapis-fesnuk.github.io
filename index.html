@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hapis Xeon</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="loader">
+  <h2>Loading...</h2>
+</div>
+
+<div class="container">
+  <header>
+    <h1>hapis fesnuk ℹ️</h1>
+    <p id="ketikan"></p>
+    <button onclick="toggleMode()" class="mode-btn">🌗</button>
+  </header>
+
+  <section id="about">
+    <h2>Tentang Owner</h2>
+    <p>Nama: Hapis</p>
+    <p>Asal: Lampung</p>
+    <p>Umur: Privat le 😹</p>
+    <p>Hobi: Main Frifayer</p>
+    <p>Makanan Kesukaan: Mie Ayam</p>
+    <p>Cita-cita: Ngeharem sama anime 😏</p>
+    <a href="https://wa.me/6285764068784" class="btn">Chat Owner</a>
+  </section>
+
+  <section id="sewa">
+    <h2>List Sewa Bot</h2>
+    <ul>
+      <li>1 Minggu: Rp 3.000</li>
+      <li>2 Minggu: Rp 7.000</li>
+      <li>1 Bulan: Rp 20.000</li>
+      <li>2 Bulan: Rp 40.000</li>
+      <li>3 Bulan: Rp 65.000</li>
+    </ul>
+    <a href="https://wa.me/6285764068784?text=Halo%20Bang%20Hapis%20Mau%20Sewa%20Bot" class="btn">Sewa Sekarang</a>
+  </section>
+
+  <section id="premium">
+    <h2>List Premium</h2>
+    <ul>
+      <li>1 Minggu: Rp 3.000</li>
+      <li>1 Bulan: Rp 7.000</li>
+      <li>Unlimited: Rp 15.000</li>
+    </ul>
+    <a href="https://wa.me/6285764068784?text=Halo%20Bang%20Hapis%20Mau%20Beli%20Premium" class="btn">Beli Premium</a>
+  </section>
+
+  <section id="donasi">
+    <h2>Donasi</h2>
+    <p>Dukung Developer biar makin semangat!</p>
+    <p>Aplikasi: Dana</p>
+    <p>Nomor: 085758862225</p>
+    <img src="qris.png" width="200" alt="QRIS">
+  </section>
+
+  <section id="chat">
+    <h2>Chat Realtime</h2>
+    <div class="chat-box" id="chatBox">
+      <p>Hapis: Halo gaess! 👋</p>
+    </div>
+    <input type="text" id="chatInput" placeholder="Ketik Pesan...">
+    <button onclick="sendChat()">Kirim</button>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by Hapis Fesnuk</p>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
