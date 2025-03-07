@@ -1,13 +1,8 @@
-function toggleMode() {
-  document.body.classList.toggle("light");
+function showSection(id) {
+  document.querySelectorAll('section').forEach(sec => sec.style.display = 'none');
+  document.getElementById(id).style.display = 'block';
 }
 
-function sendChat() {
-  const chatInput = document.getElementById("chatInput");
-  const chatBox = document.getElementById("chatBox");
-  if (chatInput.value.trim() !== "") {
-    chatBox.innerHTML += `<p>Anonymous: ${chatInput.value}</p>`;
-    chatInput.value = "";
-    chatBox.scrollTop = chatBox.scrollHeight;
-  }
+document.getElementById('toggleMode').onclick = function () {
+  document.body.classList.toggle('dark');
 }
